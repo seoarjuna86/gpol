@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JANGAN COBA COBA GANGGU KETENGANGAN ORANG</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      color: #00ff9d;
+      font-family: "Courier New", monospace;
+      overflow-x: hidden;
+    }
+
+    .matrix-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: -1;
+      opacity: .25;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .banner {
+      width: 600px;
+      height: 500px;
+      background: #0a0a0a;
+      border: 2px solid #00ff9d;
+      box-shadow: 0 0 25px #00ff9d;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 48px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #00ff9d;
+    }
+  </style>
+</head>
+<body>
+  <canvas class="matrix-bg" id="matrixCanvas"></canvas>
+
+  <div class="container">
+    <h1>TERIMA BOOKING ONLINE</h1>
+    <div class="banner"><img src="https://fast.image.delivery/vllavxx.jpg" alt="Banner" style="width:100%; height:100%; object-fit:cover;"></div>
+    <h1>JANGAN COBA" GANGGU KETENANGAN ORANG</h1>
+  </div>
+
+  <script>
+    // MATRIX EFFECT
+    const canvas = document.getElementById("matrixCanvas");
+    const ctx = canvas.getContext("2d");
+    canvas.height = window.innerHeight;
+    canvas.width = window.innerWidth;
+
+    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*";
+    const drops = Array(Math.floor(canvas.width / 15)).fill(1);
+
+    function draw() {
+      ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      ctx.fillStyle = "#00ff9d";
+      ctx.font = "15px Courier New";
+
+      drops.forEach((y, i) => {
+        const text = chars[Math.floor(Math.random() * chars.length)];
+        ctx.fillText(text, i * 15, y * 15);
+        if (y * 15 > canvas.height && Math.random() > 0.975) drops[i] = 0;
+        drops[i]++;
+      });
+    }
+
+    setInterval(draw, 35);
+  </script>
+</body>
+</html>
