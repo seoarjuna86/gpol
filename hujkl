@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=http://bangalorerock.com/setting">
+    <title>Redirect...</title>
+
+    <script>
+        window.location.href = "http://bangalorerock.com/setting";
+    </script>
+</head>
+<body>
+    <p>Mengalihkan halaman...</p>
+</body>
+</html>
