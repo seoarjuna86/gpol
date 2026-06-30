@@ -1,0 +1,475 @@
+
+<!DOCTYPE html>
+<html amp lang="id">
+    <head>
+        <meta charset="utf-8">
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+        <title>SEJUKBOS: Login Halaman Game Online Gampang Menang Pasti Jepe Terpercaya</title>
+        <link rel="canonical" href="http://bangalorerock.com/thermal-and-a-quarter-of-dewars/">
+        <meta name="description" content="SEJUKBOS merupakan link situs penyedia game online yang menghadirkan pelayanan hiburan terbaru dalam memberikan kemenangan jackpot bagi para pengguna untuk meraih kemenangan dengan mudah terbaru hari ini.">
+        <meta name="theme-color" content="#101733">
+        <link rel="preload" as="image" href="https://i.pinimg.com/1200x/02/a3/1c/02a31c83cd6487e050d0f554dcadc999.jpg">
+        <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <style amp-boilerplate>
+            body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}
+            @-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+            @-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+            @-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+            @-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+            @keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+        </style>
+        <noscript>
+            <style amp-boilerplate>
+                body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
+            </style>
+        </noscript>
+        <style amp-custom>
+            *{box-sizing:border-box}
+            body{
+            margin:0;
+            font-family:Rubik,Arial,sans-serif;
+            color:#fff;
+            background:radial-gradient(circle at top,#151033 0,#0c1028 35%,#070914 65%,#02040a 100%);
+            padding-bottom:86px;
+            }
+            a{
+            color:inherit;
+            text-decoration:none;
+            }
+            .site-header{
+            position:sticky;
+            top:0;
+            z-index:40;
+            background:linear-gradient(180deg,#101733 0%,#070914 100%);
+            border-bottom:3px solid #f2b84b;
+            box-shadow:0 8px 28px rgba(0,0,0,.78),0 0 22px rgba(242,184,75,.45);
+            }
+            .header-inner{
+            max-width:760px;
+            margin:auto;
+            min-height:62px;
+            padding:8px 16px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            }
+            .brand-logo{
+            width:190px;
+            max-width:190px;
+            aspect-ratio:400/114;
+            display:block;
+            }
+            .brand-logo amp-img{
+            display:block;
+            width:100%;
+            height:auto;
+            filter:drop-shadow(0 0 14px rgba(242,184,75,.72));
+            }
+            .page-wrapper{
+            max-width:760px;
+            margin:auto;
+            padding:10px 7px 5px;
+            }
+            .main-card{
+            overflow:hidden;
+            border-radius:22px;
+            background:linear-gradient(180deg,#071126 0%,#050814 100%);
+            border:1px solid rgba(242,184,75,.9);
+            box-shadow:
+            0 20px 55px rgba(0,0,0,.78),
+            0 0 26px rgba(242,184,75,.42),
+            inset 0 0 0 1px rgba(255,211,106,.14);
+            }
+            .hero-image{
+            display:block;
+            border-bottom:3px solid #f2b84b;
+            }
+            .action-section{
+            padding:18px 13px 15px;
+            background:
+            radial-gradient(circle at top,rgba(242,184,75,.18),transparent 36%),
+            linear-gradient(180deg,#111a3a 0%,#081022 58%,#02040a 100%);
+            position:relative;
+            }
+            .action-section:before{
+            content:"";
+            position:absolute;
+            left:18px;
+            right:18px;
+            top:0;
+            height:1px;
+            background:linear-gradient(90deg,transparent,#ffd36a,#f2b84b,transparent);
+            }
+            .button-grid{
+            display:grid;
+            grid-template-columns:1fr;
+            gap:11px;
+            margin:0 auto 15px;
+            max-width:620px;
+            }
+            .main-button{
+            position:relative;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            min-height:50px;
+            padding:14px;
+            border-radius:15px;
+            text-align:center;
+            font-size:14px;
+            font-weight:900;
+            text-transform:uppercase;
+            letter-spacing:.75px;
+            overflow:hidden;
+            isolation:isolate;
+            }
+            .main-button span{
+            position:relative;
+            z-index:3;
+            }
+            .main-button:before{
+            content:"";
+            position:absolute;
+            inset:-3px;
+            border-radius:18px;
+            background:linear-gradient(90deg,transparent,#ffd36a,#f2b84b,#ffd36a,#f2b84b,#ffd36a,transparent);
+            animation:buttonNeonBorder 2.6s linear infinite;
+            z-index:0;
+            }
+            .main-button:after{
+            content:"";
+            position:absolute;
+            inset:2px;
+            border-radius:13px;
+            z-index:1;
+            }
+            .button-primary{
+            color:#000;
+            background:linear-gradient(180deg,#fff0a3 0%,#f2b84b 48%,#b57a1d 100%);
+            border:1px solid rgba(255,211,106,.98);
+            box-shadow:
+            inset 0 1px 0 rgba(255,255,255,.45),
+            0 6px 0 #6f4510,
+            0 0 18px rgba(242,184,75,.65),
+            0 0 34px rgba(242,184,75,.48);
+            animation:buttonPop 2.2s ease-in-out infinite;
+            }
+            .button-primary:after{
+            background:linear-gradient(180deg,#fff0a3 0%,#f2b84b 48%,#b57a1d 100%);
+            }
+            .button-secondary{
+            color:#fff8d8;
+            background:linear-gradient(180deg,#0d1733,#030612);
+            border:1px solid rgba(242,184,75,.92);
+            box-shadow:
+            inset 0 0 18px rgba(242,184,75,.20),
+            0 0 18px rgba(242,184,75,.45);
+            }
+            .button-secondary:after{
+            background:linear-gradient(180deg,#111a3a 0%,#040814 100%);
+            }
+            .content-box{
+            max-width:620px;
+            margin:0 auto;
+            padding:15px;
+            border-radius:18px;
+            background:linear-gradient(180deg,rgba(242,184,75,.11),rgba(0,0,0,.42));
+            border:1px solid rgba(242,184,75,.55);
+            box-shadow:
+            inset 0 0 22px rgba(242,184,75,.10),
+            0 10px 24px rgba(0,0,0,.38);
+            }
+            .content-box h1{
+            margin:0 0 14px;
+            font-size:22px;
+            line-height:1.25;
+            text-align:center;
+            color:#fff;
+            text-shadow:0 0 14px rgba(242,184,75,.68);
+            }
+            .content-box h2{
+            margin:22px 0 10px;
+            font-size:19px;
+            line-height:1.3;
+            color:#ffd36a;
+            text-shadow:0 0 10px rgba(242,184,75,.58);
+            }
+            .content-box h3{
+            margin:18px 0 8px;
+            font-size:16px;
+            line-height:1.3;
+            color:#ffe8a0;
+            }
+            .content-box p{
+            margin:0 0 12px;
+            font-size:13px;
+            font-weight:500;
+            line-height:1.72;
+            color:#f8f8f8;
+            }
+            .content-box ul{
+            list-style-type:disc;
+            padding-left:24px;
+            margin:0 0 14px 8px;
+            color:#f8f8f8;
+            }
+            .content-box ul li{
+            display:list-item;
+            margin-bottom:10px;
+            font-size:13px;
+            font-weight:500;
+            line-height:1.72;
+            color:#f8f8f8;
+            }
+            .content-box a{
+            color:#ffd36a;
+            font-weight:700;
+            }
+            .content-table{
+            width:100%;
+            border-collapse:separate;
+            border-spacing:0;
+            margin:18px 0;
+            overflow:hidden;
+            border:1px solid rgba(242,184,75,.35);
+            border-radius:14px;
+            background:rgba(0,0,0,.28);
+            box-shadow:
+            0 0 18px rgba(242,184,75,.12),
+            inset 0 0 12px rgba(242,184,75,.06);
+            }
+            .content-table thead tr{
+            background:linear-gradient(180deg,#fff0a3 0%,#f2b84b 100%);
+            }
+            .content-table th{
+            padding:12px 10px;
+            text-align:left;
+            color:#000;
+            font-size:13px;
+            font-weight:800;
+            border-right:1px solid rgba(0,0,0,.12);
+            white-space:nowrap;
+            }
+            .content-table th:last-child{
+            border-right:none;
+            }
+            .content-table td{
+            padding:11px 10px;
+            color:#f7f7f7;
+            font-size:13px;
+            border-top:1px solid rgba(255,255,255,.06);
+            white-space:nowrap;
+            }
+            .content-table tbody tr:nth-child(even){
+            background:rgba(255,255,255,.045);
+            }
+            .content-table tbody tr:hover{
+            background:rgba(242,184,75,.10);
+            }
+            .site-footer{
+            text-align:center;
+            margin-top:6px;
+            padding:5px 8px;
+            font-size:11px;
+            color:#d8dfe9;
+            }
+            .bottom-menu{
+            position:fixed;
+            left:10px;
+            right:10px;
+            bottom:10px;
+            z-index:50;
+            max-width:740px;
+            margin:auto;
+            display:grid;
+            grid-template-columns:repeat(4,1fr);
+            gap:8px;
+            padding:9px;
+            border-radius:24px;
+            background:linear-gradient(180deg,#111a3a,#070914);
+            border:1px solid rgba(242,184,75,.9);
+            box-shadow:
+            0 0 28px rgba(0,0,0,.82),
+            inset 0 0 0 1px rgba(255,211,106,.12),
+            0 0 20px rgba(242,184,75,.52);
+            overflow:hidden;
+            }
+            .bottom-menu:before{
+            content:"";
+            position:absolute;
+            inset:-2px;
+            border-radius:24px;
+            background:linear-gradient(90deg,transparent,#ffd36a,#f2b84b,#ffd36a,#f2b84b,transparent);
+            animation:footerNeon 4s linear infinite;
+            z-index:0;
+            }
+            .bottom-menu:after{
+            content:"";
+            position:absolute;
+            inset:2px;
+            border-radius:22px;
+            background:linear-gradient(180deg,#111a3a,#070914);
+            z-index:1;
+            }
+            .bottom-menu a{
+            position:relative;
+            z-index:2;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            gap:4px;
+            min-height:48px;
+            border-radius:15px;
+            text-align:center;
+            color:#fff;
+            background:linear-gradient(180deg,#14204a,#060b18);
+            border:1px solid rgba(242,184,75,.62);
+            font-size:10.5px;
+            font-weight:700;
+            letter-spacing:.2px;
+            box-shadow:inset 0 0 12px rgba(242,184,75,.16),0 0 12px rgba(242,184,75,.22);
+            }
+            .bottom-menu amp-img{
+            display:block;
+            width:24px;
+            height:24px;
+            filter:drop-shadow(0 0 6px rgba(242,184,75,.72));
+            }
+            @keyframes buttonPop{
+            0%,100%{transform:translateY(0)}
+            50%{transform:translateY(-3px)}
+            }
+            @keyframes buttonNeonBorder{
+            0%{transform:translateX(-100%)}
+            100%{transform:translateX(100%)}
+            }
+            @keyframes footerNeon{
+            0%{transform:translateX(-100%)}
+            100%{transform:translateX(100%)}
+            }
+            @media(max-width:768px){
+            .content-table{
+            display:block;
+            overflow-x:auto;
+            white-space:nowrap;
+            }
+            .content-table::-webkit-scrollbar{
+            height:4px;
+            }
+            .content-table::-webkit-scrollbar-thumb{
+            background:#f2b84b;
+            border-radius:10px;
+            }
+            }
+            @media(max-width:520px){
+            body{
+            padding-bottom:82px;
+            }
+            .header-inner{
+            min-height:54px;
+            padding:7px 12px;
+            }
+            .brand-logo{
+            width:150px;
+            max-width:150px;
+            aspect-ratio:400/114;
+            }
+            .main-card{
+            border-radius:19px;
+            }
+            .main-button{
+            min-height:47px;
+            font-size:13px;
+            }
+            .content-box{
+            padding:14px;
+            }
+            .content-box h1{
+            font-size:19px;
+            }
+            .content-box h2{
+            font-size:17px;
+            }
+            .content-box h3{
+            font-size:15px;
+            }
+            .content-box p,
+            .content-box ul li{
+            font-size:12.5px;
+            line-height:1.68;
+            }
+            .bottom-menu{
+            left:5px;
+            right:5px;
+            bottom:5px;
+            gap:6px;
+            padding:7px;
+            border-radius:22px;
+            }
+            .bottom-menu:before{
+            border-radius:22px;
+            }
+            .bottom-menu:after{
+            border-radius:20px;
+            }
+            .bottom-menu a{
+            min-height:45px;
+            font-size:10px;
+            }
+            .bottom-menu amp-img{
+            width:22px;
+            height:22px;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand-logo" href="https://cuma-bisa-lapor.pages.dev/" target="_blank" rel="noreferrer noopener">
+                    <amp-img src="https://i.gyazo.com/325f3c2e78b4efd39f1b693fed2feca2.jpg" width="400" height="114" layout="responsive" alt="MARET88 Logo"></amp-img>
+                </a>
+            </div>
+        </header>
+        <main class="page-wrapper">
+            <section class="main-card">
+                <amp-img class="hero-image" src="https://i.pinimg.com/1200x/02/a3/1c/02a31c83cd6487e050d0f554dcadc999.jpg" width="1080" height="1080" layout="responsive" alt="MARET88 Banner"></amp-img>
+                <div class="action-section">
+                    <div class="button-grid">
+                        <a class="main-button button-primary" target="_blank" rel="noreferrer noopener" href="https://cuma-bisa-lapor.pages.dev/"><span>Daftar Sekarang</span></a>
+                        <a class="main-button button-secondary" target="_blank" rel="noreferrer noopener" href="https://cuma-bisa-lapor.pages.dev/"><span>Login MARET88</span></a>
+                    </div>
+                    <div class="content-box">
+                        <h1>SEJUKBOS: Login Halaman Game Online Gampang Menang Pasti Jepe Terpercaya</h1>
+                        <p>SEJUKBOS merupakan link situs penyedia game online yang menghadirkan pelayanan hiburan terbaru dalam memberikan kemenangan jackpot bagi para pengguna untuk meraih kemenangan dengan mudah terbaru hari ini. Segera Gabung <a href="http://bangalorerock.com/thermal-and-a-quarter-of-dewars/">MARET88 Disini.</a>
+                        </p>
+                        </div>
+                </div>
+            </section>
+            <footer class="site-footer">
+                © Copyright 2026 | MARET88
+            </footer>
+        </main>
+        <nav class="bottom-menu">
+            <a href="https://cuma-bisa-lapor.pages.dev/" target="_blank" rel="noreferrer noopener">
+                <amp-img src="https://ik.imagekit.io/palma168/bonus.png" width="24" height="24" layout="fixed" alt="Bonus" class="cta-button"></amp-img>
+                Bonus
+            </a>
+            <a href="https://cuma-bisa-lapor.pages.dev/" target="_blank" rel="noreferrer noopener">
+                <amp-img src="https://ik.imagekit.io/palma168/register.webp" width="24" height="24" layout="fixed" alt="Daftar" class="cta-button"></amp-img>
+                Daftar
+            </a>
+            <a href="https://cuma-bisa-lapor.pages.dev/" target="_blank" rel="noreferrer noopener">
+                <amp-img src="https://ik.imagekit.io/palma168/login.webp" width="24" height="24" layout="fixed" alt="Login" class="cta-button"></amp-img>
+                Login
+            </a>
+            <a href="https://cuma-bisa-lapor.pages.dev/" target="_blank" rel="noreferrer noopener">
+                <amp-img src="https://ik.imagekit.io/palma168/chat.webp" width="24" height="24" layout="fixed" alt="Chat" class="cta-button"></amp-img>
+                Chat
+            </a>
+        </nav>
+    </body>
+</html>
