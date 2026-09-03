@@ -1,0 +1,290 @@
+<!doctype html>
+<html ⚡ lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <link rel="canonical" href="https://manzonitrattoria.mx/">
+    <link href="https://i.gyazo.com/5d123aea4c3dbe987085169077e3a89d.png" rel="icon" type="image/x-icon">
+    <title>RAJA700: Platform Digital Paling Praktis Menghasilkan Profit Hasil Nyata Tanpa Ribet</title>
+    <meta name="description" content="RAJA700 hadir dalam menyediakan layanan situs permainan daring yang dikenal paling mudah untuk meraih kemenangan dengan pola gacor pasti bermanfaat dalam memberikan withdraw terbaik.">
+    <meta name="keywords" content="rajabet123, slot gacor, judi slot online, slot online terpercaya, rajabet123 login, rajabet123 daftar">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+        /* RESET & BASE STYLES */
+        :root {
+            --bg-color: #121212;
+            --text-color: #ffffff;
+            --card-bg: #1e1e1e;
+            --accent-color: #ff9800;
+            --toolbar-bg: rgba(20, 20, 20, 0.85);
+            --toolbar-border: rgba(255, 255, 255, 0.1);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* FILM GRAIN OVERLAY */
+        .film-grain {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.05;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+
+        /* RADIAL AMBIENT GLOW */
+        .ambient-glow {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80vw;
+            height: 80vh;
+            background: radial-gradient(circle, rgba(255, 152, 0, 0.05) 0%, rgba(0,0,0,0) 70%);
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        /* TOP NAVBAR */
+        .top-navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            background: var(--toolbar-bg);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border-bottom: 1px solid var(--toolbar-border);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1001;
+        }
+
+        /* Adjust body or container to prevent overlap */
+        .product-container {
+          
+            padding: 2rem;
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+            margin-bottom: 120px; /* Space for toolbar */
+            margin-top: 80px; /* Space for top navbar */
+            position: relative;
+            z-index: 1;
+        }
+
+        .product-image-wrapper {
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .product-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .product-price {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .product-desc {
+            font-size: 0.95rem;
+            opacity: 0.8;
+            margin-bottom: 2rem;
+            line-height: 1.5;
+        }
+
+        .checkout-btn {
+            background: linear-gradient(135deg, #ff9800, #ff5722);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 50px;
+            cursor: pointer;
+            width: 100%;
+            text-decoration: none;
+            display: inline-block;
+            box-sizing: border-box;
+            box-shadow: 0 5px 15px rgba(255, 87, 34, 0.3);
+        }
+
+        /* FLOATING TOOLBAR */
+        .floating-toolbar {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--toolbar-bg);
+            /* Backdrop filter not supported in all contexts but fine for progressive enhancement */
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid var(--toolbar-border);
+            border-radius: 24px;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+            z-index: 1000;
+            width: auto;
+            min-width: 280px;
+        }
+
+        /* MENU BUTTONS */
+        .menu-btn {
+            position: relative;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            padding: 12px 0; /* Changed padding to horizontal 0 */
+            border-radius: 50px;
+            letter-spacing: 1px;
+            z-index: 2;
+            transition: opacity 0.3s;
+            display: block; /* Ensure block layout inside ring */
+            background: transparent;
+            width: 150px; /* Fixed width */
+            text-align: center; /* Center text */
+            box-sizing: border-box; /* Include padding in width */
+        }
+
+        .menu-btn-login, .menu-btn-register {
+            /* Identical styles for buttons inside rings */
+            color: #fff; 
+            background: transparent;
+            border: none;
+        }
+
+        /* GOLDEN RING WRAPPER FOR REGISTER */
+        .gold-ring-wrapper {
+            position: relative;
+            border-radius: 50px;
+            padding: 2px; /* Thickness of the ring */
+            overflow: hidden;
+            /* Layer 1: Glow */
+            box-shadow: 0 0 15px rgba(232, 175, 72, 0.4); 
+        }
+
+        /* Rotating Conic Gradient */
+        .gold-ring-wrapper::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(
+                from 0deg,
+                /* First Half */
+                #533517 0%, #c49746 15%, #feeaa5 22%, #ffffff 24%, #ffc0cb 24.7%, #e0f7fa 25.3%, #ffffff 26%, #feeaa5 28%, #c49746 35%, #533517 50%,
+                /* Second Half */
+                #533517 50%, #c49746 65%, #feeaa5 72%, #ffffff 74%, #ffc0cb 74.7%, #e0f7fa 75.3%, #ffffff 76%, #feeaa5 78%, #c49746 85%, #533517 100%
+            );
+            animation: spin 4.5s linear infinite;
+        }
+
+        /* Inner Plate */
+        .gold-ring-wrapper::after {
+            content: '';
+            position: absolute;
+            inset: 2px;
+            background: #1e1e1e; /* Match approximate dark theme background */
+            border-radius: 48px;
+            z-index: 0;
+        }
+
+        /* Ensure content sits above the inner plate */
+        .gold-ring-wrapper .menu-btn-register {
+            position: relative;
+            z-index: 1;
+            display: block;
+            background: linear-gradient(to right, #d4af37, #f2d06b); /* Gold text background style? No, button bg */
+            /* Let's make the button background transparent to show inner plate, or give it a gold fill */
+            /* User wanted "Golden active indicator ring" ... "Inner plate covers center". */
+            /* So the button itself sits on top of the inner plate. */
+            background: transparent; 
+        }
+        
+        /* Let's style the Register button to look active/gold-filled or just outlined by the ring? */
+        /* The prompt said "Inner plate - inset: 2px covers the center, only 2px of spinning gold ring visible." */
+        /* So the center is dark. */
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="film-grain"></div>
+    <div class="ambient-glow"></div>
+
+    <!-- TOP NAVBAR -->
+    <nav class="top-navbar">
+        <amp-img src="https://i.gyazo.com/a28deb17f54f190eec40a684129862ce.gif" height="50" width="200" layout="fixed" alt="RAJABET123 Logo">
+            <div fallback>
+                <amp-img src="https://i.gyazo.com/a28deb17f54f190eec40a684129862ce.gif" height="50" width="200" layout="fixed"></amp-img>
+            </div>
+        </amp-img>
+    </nav>
+
+    <div class="product-container">
+        <div class="product-image-wrapper">
+            <amp-img src="https://i.gyazo.com/68ba47d691c042e00e022a25d42a744c.png" width="400" height="400" layout="responsive" alt="Premium Product">
+                <div fallback>
+                    <amp-img src="https://i.gyazo.com/68ba47d691c042e00e022a25d42a744c.png" width="400" height="400" layout="responsive"></amp-img>
+                </div>
+            </amp-img>
+        </div>
+        <h1 class="product-title">RAJA700 PLATFORM SITUS RESMI</h1>
+        <div class="product-price">AKUN BARU GAMPANG PECAH</div>
+        <p class="product-desc">
+           Jadilah Pemain Setia Kami Dan Dapatkan Fitur Unik Dan Bonus Yang Melimpah Dan Menguntungkan!</p>
+        <a href="https://daftar-raja700.xyz/" class="checkout-btn">DAFTAR AKUN VVIP</a>
+    </div>
+
+    <!-- FLOATING TOOLBAR -->
+    <nav class="floating-toolbar">
+        <div class="gold-ring-wrapper">
+            <a href="https://akses-raja700.com" class="menu-btn menu-btn-login">LOGIN</a>
+        </div>
+        
+        <div class="gold-ring-wrapper">
+            <a href="https://daftar-raja700.xyz/" class="menu-btn menu-btn-register">REGISTER</a>
+        </div>
+    </nav>
+
+</body>
+</html>
